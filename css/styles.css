@@ -1,4 +1,37 @@
-body {
+/* Base Styles */
+
+html {
     font-size: 16px;
 }
 
+.container {
+    padding: 1rem;
+    
+}
+
+.inner-container {
+ 
+}
+
+.search {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img {
+    /* width: 100%; */
+}
+/* Media Queries */
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .search {
+        text-align: left;
+        
+    }
+}
