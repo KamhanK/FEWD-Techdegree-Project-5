@@ -2,6 +2,7 @@
 
 html {
     font-size: 16px;
+    box-sizing: border-box;
 }
 
 .container {
@@ -16,13 +17,35 @@ html {
 .search {
     display: block;
     margin: 0 auto;
-    text-align: center;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 5px;
+    border-color: #E5E5E5;
+    border-style: solid;
+    color: #7F7F7F;
+    
+    
+    
 }
 
 img {
-    /* width: 100%; */
+    width: 100px;
 }
+
+a {
+
+
+}
+
 /* Media Queries */
+
+@media (min-width: 380px) {
+    .search {
+        width: 320px;
+        
+    }
+}
 
 @media (min-width: 768px) {
     .container {
@@ -32,6 +55,18 @@ img {
 
     .search {
         text-align: left;
+        width: 490px;
+        
+    }
+
+    img {
+        width: 100%;
+    }
+
+    /* Flexbox Styles */
+
+    .item {
+        margin: 1.70rem;
         
     }
 }
