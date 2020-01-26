@@ -18,15 +18,16 @@ html {
     display: block;
     margin: 0 auto;
     width: 100%;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 1rem;
     border-radius: 5px;
     border-color: #E5E5E5;
     border-style: solid;
+    margin-bottom: .5rem;
+    
+}
+
+.search::placeholder {
     color: #7F7F7F;
-    
-    
-    
 }
 
 img {
