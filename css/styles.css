@@ -1,6 +1,7 @@
 /* Base Styles */
 
 html {
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     box-sizing: border-box;
 }
@@ -53,6 +54,19 @@ a {
     margin: .5rem;
 }
 
+ /* Lightbox Code */
+    
+ .lb-details {
+    text-align: center !important;
+    width: 100% !important;
+    
+  }
+
+  .lb-caption {
+    font-size: 1rem !important;
+    
+  }
+
 /* Media Queries */
 
 @media (min-width: 380px) {
@@ -84,4 +98,7 @@ a {
         margin: 1.70rem;
         
     }
+
+   
+
 }
