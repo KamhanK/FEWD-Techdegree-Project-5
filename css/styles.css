@@ -6,6 +6,10 @@ html {
     box-sizing: border-box;
 }
 
+body {
+    padding-bottom: 65px;
+}
+
 .container {
     padding: 1rem;
     
