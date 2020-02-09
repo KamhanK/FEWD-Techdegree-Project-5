@@ -46,10 +46,6 @@ for (let i = 0; i < attrSearchString.length; i += 1) {
     console.log(attrData);
 }
 
-if () {
-    captions[0]
-}
-
 /* Lightbox Code */
 
 lightbox.option({
