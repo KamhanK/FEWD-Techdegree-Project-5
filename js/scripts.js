@@ -5,13 +5,18 @@
 
 
 const searchString = document.getElementById('search');
+const attrSearchString = document.getElementsByTagName('a')
+const attrData = attrSearchString[0].getAttribute('data-title');
+
+for (let i = 0; i < attrData.length; i += 1) {
+    const attrData = attrSearchString[0].getAttribute('data-title');
+    console.log(attrData);
+}
 
 addEventListener('keyup', logKey);
 function logKey(event) {
-    const attrSearchString = searchString.getAttribute('data-title');
-    if ( attrSearchString === searchString ) {
     console.log(searchString.value.toLowerCase());
-    }
+    
 }
 
 
