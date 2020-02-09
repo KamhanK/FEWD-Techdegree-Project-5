@@ -28,11 +28,18 @@ body {
     border-color: #E5E5E5;
     border-style: solid;
     margin-bottom: .5rem;
+    color: #7F7F7F;
     
 }
 
 .search::placeholder {
     color: #7F7F7F;
+}
+
+.search:focus {
+    outline-color: black;
+    outline-width: 1px;
+    
 }
 
 img {
