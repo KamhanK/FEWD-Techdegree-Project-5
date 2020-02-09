@@ -6,12 +6,7 @@
 
 const searchString = document.getElementById('search');
 const attrSearchString = document.getElementsByTagName('a')
-const attrData = attrSearchString[0].getAttribute('data-title');
 
-for (let i = 0; i < attrData.length; i += 1) {
-    const attrData = attrSearchString[0].getAttribute('data-title');
-    console.log(attrData);
-}
 
 addEventListener('keyup', logKey);
 function logKey(event) {
@@ -19,11 +14,11 @@ function logKey(event) {
     
 }
 
+for (let i = 0; i < attrSearchString.length; i += 1) {
+    const attrData = attrSearchString[i].getAttribute('data-title');
+    console.log(attrData);
+}
 
-// document.getElementById('search').addEventListener('keyup', searchFunction);
-// const searchString = document.getElementById('search');
-// searchString.value = searchString.value.toLowerCase();
-// console.log(searchString);
 
 /* Lightbox Code */
 
