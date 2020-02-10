@@ -1,10 +1,10 @@
 /* Search Code */
 
 const searchString = document.getElementById('search');
+const a = document.getElementsByClassName('item');
 
 searchString.addEventListener('keyup', () => {
     const input = searchString.value.toLowerCase();
-    const a = document.getElementsByClassName('item');
     // console.log(input);
     for (let i = 0; i < a.length; i += 1) {
         const attrData = a[i].getAttribute('data-title');
@@ -16,9 +16,13 @@ searchString.addEventListener('keyup', () => {
         }
 });
 
-// searchString.addEventListener('search', () => {
-//     searchString.value = "";
-// });
+searchString.addEventListener('search', () => {
+    if (event.target.value === '') {
+      for (let i = 0; i < a.length; i += 1) {
+        a[i].style.display = "";
+      }
+    }
+  });
 
 /* jQuery Search Code */
 
