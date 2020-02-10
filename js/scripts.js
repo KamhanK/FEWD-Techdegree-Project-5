@@ -5,7 +5,7 @@ const a = document.getElementsByClassName('item');
 
 searchString.addEventListener('keyup', () => {
     const input = searchString.value.toLowerCase();
-    // console.log(input);
+
     for (let i = 0; i < a.length; i += 1) {
         const attrData = a[i].getAttribute('data-title');
         if (attrData.toLowerCase().indexOf(input) > -1) {
