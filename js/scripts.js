@@ -16,10 +16,14 @@ searchString.addEventListener('keyup', () => {
         }
 });
 
+// searchString.addEventListener('search', () => {
+//     searchString.value = "";
+// });
+
 /* jQuery Search Code */
 
 // $(document).ready(function(){
-//     $("#search").on("keyup", function() {
+//     $("#search").on("keyup search", function() {
 //       var value = $(this).val().toLowerCase();
 //       $('.item').filter(function() {
 //         $(this).toggle($(this).attr('data-title').toLowerCase().indexOf(value) > -1)
