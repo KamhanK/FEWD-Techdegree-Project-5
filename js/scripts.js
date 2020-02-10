@@ -13,7 +13,7 @@ searchString.addEventListener('keyup', () => {
             } else {
             a[i].style.display = "none";
             }
-        }
+    }
 });
 
 searchString.addEventListener('search', () => {

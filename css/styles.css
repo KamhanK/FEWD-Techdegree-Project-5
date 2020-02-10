@@ -12,8 +12,7 @@ body {
 
 .container {
     padding: 1rem;
-    padding-top: 0rem;
-    
+    padding-top: 0rem; 
 }
 
 h1 {
@@ -36,8 +35,7 @@ p {
     border-color: #E5E5E5;
     border-style: solid;
     margin-bottom: .5rem;
-    color: #7F7F7F;
-    
+    color: #7F7F7F; 
 }
 
 .search::placeholder {
@@ -46,8 +44,7 @@ p {
 
 .search:focus {
     outline-color: black;
-    outline-width: 1px;
-    
+    outline-width: 1px;  
 }
 
 img {
@@ -60,8 +57,7 @@ img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    
+    justify-content: center;   
 }
 
 .item {
@@ -73,20 +69,17 @@ img {
  .lb-details {
     text-align: center !important;
     width: 100% !important;
-    
   }
 
   .lb-caption {
     font-size: 1rem !important;
-    
   }
 
 /* Media Queries */
 
 @media (min-width: 380px) {
     .search {
-        width: 320px;
-        
+        width: 320px;  
     }
 }
 
@@ -98,8 +91,7 @@ img {
 
     .search {
         margin-top: 1rem;
-        width: 490px;
-        
+        width: 490px;  
     }
 
     h1 {
@@ -113,10 +105,9 @@ img {
     /* Flexbox Styles */
 
     .item {
-        margin: 1.70rem;
-        
+        margin: 1.70rem;  
     }
 
+    
    
-
 }
