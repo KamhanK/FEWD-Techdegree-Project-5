@@ -64,7 +64,7 @@ img {
     margin: .5rem;
 }
 
- /* Lightbox Code */
+ /* Lightbox Styles */
     
  .lb-details {
     text-align: center !important;
@@ -77,37 +77,34 @@ img {
 
 /* Media Queries */
 
-@media (min-width: 380px) {
-    .search {
-        width: 320px;  
-    }
-}
-
-@media (min-width: 768px) {
-    .container {
-        max-width: 1200px;
-        margin: 0 auto;
+    @media only screen and (min-width: 380px) {
+        .search {
+            width: 320px;  
+        }
     }
 
-    .search {
-        margin-top: 1rem;
-        width: 490px;  
+    @media only screen and (min-width: 768px) {
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .search {
+            margin-top: 1rem;
+            width: 490px;  
+        }
+
+        h1 {
+            font-size: 1.75rem;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        /* Flexbox Styles */
+
+        .item {
+            margin: 1.70rem;  
+        }
     }
-
-    h1 {
-        font-size: 1.75rem;
-    }
-
-    img {
-        width: 100%;
-    }
-
-    /* Flexbox Styles */
-
-    .item {
-        margin: 1.70rem;  
-    }
-
-    
-   
-}
