@@ -1,14 +1,19 @@
-/* Base Styles */
+/* Global Styles */
+
+* { 
+    box-sizing: border-box;
+  }
 
 html {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    box-sizing: border-box;
 }
 
 body {
     padding-bottom: 65px;
 }
+
+/* Base Styles */
 
 .container {
     padding: 1rem;
