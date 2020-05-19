@@ -81,6 +81,7 @@ img {
         .search {
             width: 320px;  
         }
+
     }
 
     @media only screen and (min-width: 768px) {
@@ -107,4 +108,5 @@ img {
         .item {
             margin: 1.70rem;  
         }
+        
     }
