@@ -1,4 +1,4 @@
-/* Search Code */
+/* Search Filter */
 
 const searchString = document.getElementById('search');
 const a = document.getElementsByClassName('item');
@@ -24,7 +24,7 @@ searchString.addEventListener('search', () => {
     }
   });
 
-/* jQuery Search Code */
+/* jQuery Search Filter */
 
 // $(document).ready(function(){
 //     $("#search").on("keyup search", function() {
@@ -35,7 +35,7 @@ searchString.addEventListener('search', () => {
 //     });
 //   });
 
-/* Lightbox Code */
+/* Lightbox */
 
 lightbox.option({
     'alwaysShowNavOnTouchDevices': true,
