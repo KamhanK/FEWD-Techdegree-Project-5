@@ -1,6 +1,6 @@
 # Techdegree Project 5 - Interactive Photo Gallery
 
-**Skills Used:**
+**Skills & Technologies Used:**
 
 - HTML
 - CSS
