@@ -3,7 +3,7 @@
 const searchString = document.getElementById('search');
 const a = document.getElementsByClassName('item');
 
-/* This event listener listens for any keyup events in the input search field and displays the resulting thumbnails of the search. */
+/* This event listener listens for any keyup events in the input search field and displays the resulting thumbnails of the search based on the data of the data-title attribute. */
 
 searchString.addEventListener('keyup', () => {
     const input = searchString.value.toLowerCase();
